@@ -66,10 +66,10 @@ let isActive = ref(0);
             </li>
              <li>
               <NuxtLink
-                to="/"
+                to="/joke"
                 title="Генерация анекдотов на основе цепи Маркова"
                 class="block py-2 pr-4 pl-3 md:p-0 text-gray-400 hover:bg-gray-700 hover:text-orange-500 md:hover:bg-transparent border-gray-700 hover:scale-105"
-                :class="{ selected: ($route.name=='index') }"
+                :class="{ selected: ($route.name=='joke') }"
                 aria-current="page"
                 >Генератор анекдотов</NuxtLink
               >
@@ -92,10 +92,9 @@ let isActive = ref(0);
 
 <style>
 .selected {
-  --tw-bg-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+  color: rgb(255, 106, 68); 
 }
 .selected:hover {
-  color: #5f6aff;
+  color: rgb(255, 90, 68); 
 }
 </style>

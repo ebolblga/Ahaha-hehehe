@@ -34,7 +34,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="flex justify-center content-center text-center pt-[5vh]">
+  <div class="flex justify-center content-center text-center pt-[5vh] mx-10">
     <div>
       <my-button @click="findVid(5)">Найти</my-button>
       <iframe
