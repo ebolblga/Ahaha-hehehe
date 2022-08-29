@@ -1,6 +1,6 @@
-# Existing word car license plate generator
+# Ahaha-hehehe
 
-This is a web version of an [older project](https://github.com/ebolblga/CarPlates).
+This is a third version of an [older project](https://github.com/ahibis/hahaRU).
 
 ## How to start project
 
