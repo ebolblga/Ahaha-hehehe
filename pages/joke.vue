@@ -49,7 +49,7 @@ function genJoke() {
 <template>
   <div class="content-center text-center pt-[5vh] mx-10">
     <my-button @click="genJoke">Сгенерировать</my-button>
-    <p>
+    <p class="text-xl pt-10">
       {{ joke.charAt(0).toUpperCase() + joke.slice(1) }}
     </p>
   </div>

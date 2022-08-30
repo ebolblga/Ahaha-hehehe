@@ -42,7 +42,7 @@ function randomIntFromInterval(min, max) {
 <template>
   <div class="content-center text-center pt-[5vh] mx-10">
     <my-button @click="getWord()">Сгенерировать</my-button>
-    <p>
+    <p class="text-3xl pt-10">
       {{ word }}
     </p>
   </div>
