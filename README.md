@@ -8,6 +8,10 @@
 
 Read documentation on [English](https://github.com/ebolblga/Ahaha-hehehe/blob/master/README.en-US.md#ahaha--hehehe-v3)
 
+<p align="center">
+  <img width="228" height="78" src="https://user-images.githubusercontent.com/82185066/187491810-ae339b2b-247d-4821-b5be-09d597badefa.png">
+</p>
+
 ## Модули
 ### Генератор мемов
 Генерирует мемы и позволяет создавать весёлые изображения самостоятельно.
