@@ -35,9 +35,9 @@ yarn dev
 ```
 
 ## Credits
-[ebolblga](https://github.com/ebolblga) - Creative Lead, UI Designer, Full-Stack Developer  
-[ahibis](https://github.com/ahibis) - Tech Lead, Full-Stack Developer  
-Moskwa - Сonsultant, Full-Stack Developer  
+[Ebolblga](https://github.com/ebolblga) - Creative Lead, UI/UX Designer, Full-Stack Developer  
+[Ahibis](https://github.com/ahibis) - Tech Lead, Full-Stack Developer  
+[Moskwa]() - Creative Сonsultant, Full-Stack Developer  
 
 ## License
 This program is licensed under the GPL-3.0 License. Please read the License file to know about the usage terms and conditions.
