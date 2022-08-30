@@ -6,7 +6,7 @@
 [v1 на ASP.Net](https://github.com/ahibis/hahaRU)  
 [v2 на Django](https://github.com/ahibis/hahaRu2)  
 
-Read documentation on [English](https://github.com/ebolblga/Ahaha-hehehe/blob/master/README.en-US.md#ahaha--hehehe-v3)
+Read documentation in other languages: [English](https://github.com/ebolblga/Ahaha-hehehe/blob/master/README.en-US.md#ahaha--hehehe-v3)
 
 <p align="center">
   <img width="228" height="78" src="https://user-images.githubusercontent.com/82185066/187491810-ae339b2b-247d-4821-b5be-09d597badefa.png">
