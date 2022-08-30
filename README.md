@@ -35,9 +35,9 @@ yarn dev
 ```
 
 ## Создатели
-[ebolblga](https://github.com/ebolblga) - Creative Lead, UI Designer, Full-Stack Developer  
-[ahibis](https://github.com/ahibis) - Tech Lead, Full-Stack Developer  
-[Moskwa]() - Сonsultant, Full-Stack Developer  
+[Ebolblga](https://github.com/ebolblga) - Creative Lead, UI/UX Designer, Full-Stack Developer  
+[Ahibis](https://github.com/ahibis) - Tech Lead, Full-Stack Developer  
+[Moskwa]() - Creative Сonsultant, Full-Stack Developer  
 
 ## Лицензия
 Эта программа распространяется под лицензией GPL-3.0 License. Пожалуйста, прочтите файл лицензии, чтобы узнать об условиях использования.
