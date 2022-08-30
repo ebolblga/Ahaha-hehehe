@@ -41,13 +41,27 @@ onMounted(async () => {
         :src="`https://www.youtube.com/embed/${
           videoIds[~~(Math.random() * videoIds.length)]
         }`"
-        width="720"
-        height="480"
-        class="pt-7"
+        class="mt-7 shadow-xl bg-black lg:w-[854px] lg:h-[480px] md:w-[640px] md:h-[360px]"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      <my-button @click="findVid(5)" class="mt-7">
+      Копировать ссылку
+      <span class="material-symbols-outlined">
+        link
+      </span>
+      </my-button>
     </div>
   </div>
 </template>
+
+<style>
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48
+  }
+  </style>

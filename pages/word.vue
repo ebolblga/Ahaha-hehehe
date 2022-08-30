@@ -23,7 +23,7 @@ function genWord() {
   const B = ["у", "ы", "е", "о", "боб"];
   word += B[randomIntFromInterval(0, B.length - 1)];
 
-  const C = ["лда", "га", "ба", "нга"];
+  const C = ["лда", "га", "ба", "нга", "лдочка"];
   word += C[randomIntFromInterval(0, C.length - 1)];
 
   return word;
@@ -42,7 +42,7 @@ function randomIntFromInterval(min, max) {
 <template>
   <div class="content-center text-center pt-[5vh] mx-10">
     <my-button @click="getWord()">Сгенерировать</my-button>
-    <p class="text-3xl pt-10">
+    <p class="text-3xl mt-10 drop-shadow-xl">
       {{ word }}
     </p>
   </div>
