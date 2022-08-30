@@ -1,12 +1,16 @@
 # Ahaha & hehehe v3
 
-### Finally, the funny. This site is meant to fulfill your needs for meta-ironic humor.
+### Finally, the funny. This website is meant to fulfil your needs in meta-ironic humour.
 
 This is a third and final version of an older project:  
 [v1 on ASP.Net](https://github.com/ahibis/hahaRU)  
 [v2 on Django](https://github.com/ahibis/hahaRu2)  
 
 Читать документацию на [Русском](https://github.com/ebolblga/Ahaha-hehehe#ahaha--hehehe-v3)
+
+<p align="center">
+  <img width="228" height="78" src="https://user-images.githubusercontent.com/82185066/187491810-ae339b2b-247d-4821-b5be-09d597badefa.png">
+</p>
 
 ## Modules
 ### Meme generation
