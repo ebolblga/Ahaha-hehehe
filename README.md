@@ -18,15 +18,22 @@ Read documentation in other languages: [English](https://github.com/ebolblga/Aha
 
 ### Генератор слов
 Генерирует смешные слова с помощью субверсии языкового шаблона, используя заведомо забавные паттерны в словах.
-![image](https://user-images.githubusercontent.com/82185066/187479609-5bdd7862-d676-4fa8-946f-caf2d8d64c5e.png)
+<p align="center">
+  <img width="800" height="570" src="https://user-images.githubusercontent.com/82185066/187479609-5bdd7862-d676-4fa8-946f-caf2d8d64c5e.png">
+</p>
 
 ### Генератор анекдотов
 Генерирует оригинальные шутки с помощью [цепи Маркова](https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BF%D1%8C_%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B0), обучена на большом объёме данных, запарсеном с [anekdot.ru](https://www.anekdot.ru/).
-![image](https://user-images.githubusercontent.com/82185066/187480785-63147aac-5462-4df5-804e-b80c4d0fdc82.png)
+<p align="center">
+  <img width="800" height="570" src="https://user-images.githubusercontent.com/82185066/187480785-63147aac-5462-4df5-804e-b80c4d0fdc82.png">
+</p>
 
 ### Генератор видео
 Находит совершенно случайное видео из [YouTube](https://www.youtube.com/). Сделано путем создания случайного ID видео, поиска его на YouTube (чтобы найти похожие существующие идентификаторы видео) и парсинга результатов.
-![image](https://user-images.githubusercontent.com/82185066/187481536-76c05c31-00b2-4951-8c50-33d72d28c2d2.png)
+<p align="center">
+  <img width="800" height="570" src="https://user-images.githubusercontent.com/82185066/187481536-76c05c31-00b2-4951-8c50-33d72d28c2d2.png">
+</p>
+
 
 ## Как запустить проект используя Visual Studio Code
 
