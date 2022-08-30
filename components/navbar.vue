@@ -60,12 +60,13 @@ let isActive = ref(0);
                 :class="{ selected: ($route.name == 'video') }">Генератор видео</NuxtLink>
             </li>
             <li>
-              <select v-model="$i18n.locale">
-                <option key="0" value="ru">ru</option>
-                <option key="1" value="en">en</option>
+              <select v-model="$i18n.locale" class="text-gray-400 text-xs font-bold">
+                <option key="0" value="ru" class="text-gray-400">RUS</option>
+                <option key="1" value="en" class="text-gray-400">ENG</option>
               </select>
             </li>
-
+            <!-- <img src="/flags/russian-federation.png" class="w-5 h-5" :class="{'invisible': key != 0}" />
+            <img src="/flags/great-britain.png" class="w-5 h-5" :class="{'invisible': key != 1}" /> -->
           </ul>
         </div>
       </div>

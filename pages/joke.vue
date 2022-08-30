@@ -1,6 +1,7 @@
 <script setup lang="ts">
 useHead({ title: "Генератор анекдотов" });
 let chain;
+let notificationHidden = ref(true);
 
 onMounted(async () => {
   chain = await $fetch("/jokeChain.json");
@@ -44,13 +45,41 @@ let joke = ref("");
 function genJoke() {
   joke.value = generate();
 }
+
+async function copyJoke() {
+  try {
+    await navigator.clipboard.writeText(joke.value.charAt(0).toUpperCase() + joke.value.slice(1));
+    //alert('Copied');
+  } catch ($e) {
+    alert("Cannot copy");
+  }
+}
 </script>
 
 <template>
-  <div class="content-center text-center pt-[5vh] mx-10">
+  <div class="flex justify-center content-center text-center pt-[5vh] mx-10">
+  <div>
     <my-button @click="genJoke">Сгенерировать</my-button>
     <p class="text-xl mt-10 drop-shadow-xl">
       {{ joke.charAt(0).toUpperCase() + joke.slice(1) }}
     </p>
+    <my-button-sm
+        @click="copyJoke(), (notificationHidden = false)"
+        class="mt-14"
+      >
+        Копировать анекдот
+        <span class="material-symbols-outlined material-icons md-18">
+          link
+        </span>
+      </my-button-sm>
+  </div>
+  <alert
+      :class="{
+        'ok bottom-10 fixed mx-auto animation': true,
+        hidden: notificationHidden,
+      }"
+      @click="notificationHidden = true"
+      >Анекдот скопирован!</alert
+    >
   </div>
 </template>

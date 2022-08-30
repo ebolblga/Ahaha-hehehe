@@ -1,5 +1,6 @@
 <script setup lang="ts">
 useHead({ title: "Генератор слов" });
+let notificationHidden = ref(true);
 
 onMounted(async () => {
   getWord();
@@ -37,13 +38,43 @@ function getWord() {
 function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+
+async function copyWord() {
+  try {
+    await navigator.clipboard.writeText(word.value);
+    //alert('Copied');
+  } catch ($e) {
+    alert("Cannot copy");
+  }
+}
 </script>
 
 <template>
-  <div class="content-center text-center pt-[5vh] mx-10">
-    <my-button @click="getWord()">Сгенерировать</my-button>
-    <p class="text-3xl mt-10 drop-shadow-xl">
-      {{ word }}
-    </p>
+  <div class="flex justify-center content-center text-center pt-[5vh] mx-10">
+    <div>
+      <my-button @click="getWord(), (notificationHidden = true)"
+        >Сгенерировать</my-button
+      >
+      <p class="text-7xl mt-10 drop-shadow-xl font-light italic">
+        {{ word }}
+      </p>
+      <my-button-sm
+        @click="copyWord(), (notificationHidden = false)"
+        class="mt-14"
+      >
+        Копировать слово
+        <span class="material-symbols-outlined material-icons md-18">
+          link
+        </span>
+      </my-button-sm>
+    </div>
+    <alert
+      :class="{
+        'ok bottom-10 fixed mx-auto animation': true,
+        hidden: notificationHidden,
+      }"
+      @click="notificationHidden = true"
+      >Слово <b>{{ word }}</b> скопировано!</alert
+    >
   </div>
 </template>
