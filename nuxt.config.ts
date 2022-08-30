@@ -5,7 +5,9 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/supabase',
+    '@intlify/nuxt3'
   ],
   publicRuntimeConfig:{
     base:process.env.NODE_ENV == "production" ? "/CarPlatesWeb/": "/"
@@ -25,10 +27,10 @@ export default defineNuxtConfig({
   router:{
     base:process.env.NODE_ENV =="production" ? "/CarPlatesWeb/": "/"
   },
-  // target:"static",
   intlify: {
     localeDir: "locales", 
     vueI18n: {
+
       fallbackLocale: "ru",
     },
   },
